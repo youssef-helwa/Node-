@@ -1,0 +1,43 @@
+for...each :
+        - It works on array only 
+        - you use it if you need to make something on array and you do not need to break or make continue any thing like that 
+        - and it can not use in await directily if you need in async function 
+        - it good for do something for every item in an array
+
+for...of  :
+        - It works with many statment like maps , array ,strings 
+        - you can make a loop and break on it and continue and you can controlle this loop like you want 
+ 
+//////////////////////////////////////////////////////////////////
+
+Hoisting :
+        - is meaning to move the varabile declaration to the top of code like this 
+                console.log(a);
+                var a = 5;
+                (this give in the terminal {undefined} ) => that is mean that javascript read
+                the varabile but without having any value so it gives {undefined}
+
+
+Temporal Dead Zone (TDZ) : 
+        - for {let , const} is mean that the varabile is hosted but it not initialized so it cannot read it like this :
+                console.log(a);
+                let a = 5;
+                so it gives ReferenceError 
+                so at the end it can not see (let a = 5)in your code
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+(===) => is more strict from (==) bec if you compare between number 5 and string 5 with (==)
+it will gives yu true but in anther side it will gives you false
+
+///////////////////////////////////////////////////////
+try-catch :
+        - It is use to handle the error without stopping the code
+        - it is usfull to prevent you application from crashing
+
+        - It is very important for asynce operators like (API calls, file reading)
+        bec if thier is something happen it will handel it to make the code complete running
+
+//////////////////////////////////////////////////////////////////////////
+
+        
